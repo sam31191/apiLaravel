@@ -11,3 +11,4 @@ Route::apiResource('products','ProductsController');
 Route::group(['prefix'=>'products'],function(){
     Route::apiResource('/{product}/reviews','ReviewsController');
 });
+

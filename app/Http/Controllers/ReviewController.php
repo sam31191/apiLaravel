@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Products;
+use App\Reviews;
 use Illuminate\Http\Request;
 
-class ProductsController extends Controller
+class ReviewController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class ProductsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Products  $products
+     * @param  \App\Reviews  $reviews
      * @return \Illuminate\Http\Response
      */
-    public function show(Products $products)
+    public function show(Reviews $reviews)
     {
         //
     }
@@ -52,10 +52,10 @@ class ProductsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Products  $products
+     * @param  \App\Reviews  $reviews
      * @return \Illuminate\Http\Response
      */
-    public function edit(Products $products)
+    public function edit(Reviews $reviews)
     {
         //
     }
@@ -64,10 +64,10 @@ class ProductsController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Products  $products
+     * @param  \App\Reviews  $reviews
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Products $products)
+    public function update(Request $request, Reviews $reviews)
     {
         //
     }
@@ -75,10 +75,10 @@ class ProductsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Products  $products
+     * @param  \App\Reviews  $reviews
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Products $products)
+    public function destroy(Reviews $reviews)
     {
         //
     }
